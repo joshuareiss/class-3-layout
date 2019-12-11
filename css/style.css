@@ -8,3 +8,49 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+.container {
+  width: 100%;
+  background-color: green;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.box {
+  width:150px;
+  height: 150px;
+  background-color: #ef93a0;
+  border: 3px solid #d71f43;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+
+.box-tall {
+  width: 150px;
+  height: 300px
+}
